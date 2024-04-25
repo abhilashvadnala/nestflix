@@ -1,0 +1,24 @@
+## NextJs Learning Notes
+- Folder based routing
+- Provides App Router (new & recommended way), Page Router (old way)
+- It has a strong opinion on the folder structure
+  - project-root
+    - app
+    - pages
+    - public
+  - top-level files
+    - used for configuring project. examples listed below
+    - package.json
+    - next.config.js
+    - instrumentation.ts
+    - middleware.ts
+    - .env
+    - next-env.d.ts
+  - app Routing conventions
+    - layout - Layout
+    - route - API endpoint
+    - page - Page
+    - loading - Loading UI (shimmer, spinner)
+    - not-found - Not found UI
+    - error - Error UI
+    - default - Parallel route fallback page
